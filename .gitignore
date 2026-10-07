@@ -1,0 +1,42 @@
+# logs (regenerable, bulky)
+*.log
+logs/
+receiver/campaign2_backup/
+
+# editor/backup copies
+*.bak
+*.bak[0-9]
+*.bak_*
+*.backup
+*.backup_*
+*.before_*
+*.orig
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# archives
+*.tar.gz
+*.zip
+wheels/
+
+# trained models (regenerable from training scripts)
+*.pkl
+*.pt
+*.pth
+
+# build
+build/
+*.o
+receiver/data/experiments/*
+!receiver/data/experiments/clean/
+!receiver/data/experiments/ablation/
+!receiver/data/experiments/more/
+!receiver/data/experiments/h2_20260927_1210/
+!receiver/data/experiments/final12_20260929_045519/
+!receiver/data/experiments/quota_rep/
+!receiver/data/experiments/clean_base_g2/
+!receiver/data/experiments/clean_rr/
